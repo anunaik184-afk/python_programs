@@ -1,0 +1,26 @@
+#Inheritance
+class Humans:
+    def __init__(self,eating):
+        self.eating=eating
+    def eat(self):
+        print(f"{self.eating}  eating is done")
+class dog(Humans):
+    def not_eating(self):
+        print(f"{self.eating} cant compleate fully")
+d=dog("chicken")
+d.not_eating()
+
+#Polymorphism
+class Human:
+    def eat(self):
+        print("Human eating")
+class parent:
+    def eat(self):
+        print("parents are eating")
+class children:
+    def eat(self):
+        print("childrens are eating")
+
+Human=[parent(),children()]    
+for h in Human:
+    h.eat()
