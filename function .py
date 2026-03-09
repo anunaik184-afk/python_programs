@@ -7,9 +7,9 @@ greet()  # Uses default value "Student"
 greet("Anu")  # Uses passed value "Anu"
 
 #  2.Greet Function:
-def greet():
+def simple_greet():
     print("Hello! Good Morning")
-greet()
+simple_greet()
 
 #  3.Sum Function:
 def add(a,b):
