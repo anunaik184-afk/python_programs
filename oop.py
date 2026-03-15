@@ -16,10 +16,10 @@ class Mobile:
         self.prize=prize
     def display(self):
         print(f"Brand:{self.brand},Prize:{self.prize}")
-m1=Mobile("Vivo",30000)
-m2=Mobile("Realme",50000)
-m1.display()
-m2.display()
+mo1=Mobile("Vivo",30000)
+mo2=Mobile("Realme",50000)
+mo1.display()
+mo2.display()
 
 
 class Student:
